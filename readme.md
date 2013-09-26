@@ -1,11 +1,6 @@
 #Laravel 4 Bootstrap Starter Site
-`Version: 1.2.1 Stable` [![ProjectStatus](http://stillmaintained.com/andrew13/Laravel-4-Bootstrap-Starter-Site.png)](http://stillmaintained.com/andrew13/Laravel-4-Bootstrap-Starter-Site)
-[![Build Status](https://api.travis-ci.org/Zizaco/confide.png)](https://travis-ci.org/andrew13/Laravel-4-Bootstrap-Starter-Site)
 
 Laravel 4 Bootstrap Starter Site is a sample application for beginning development with Larvel 4.
-
-It began as a fork of [laravel4-starter-kit](https://github.com/brunogaspar/laravel4-starter-kit) taking the starter kit changing the included modules and adding a few as well.
-
 
 ## Features
 
@@ -35,10 +30,7 @@ It began as a fork of [laravel4-starter-kit](https://github.com/brunogaspar/lara
 	* [Generators](#generators)
 
 ## Issues
-See [github issue list](https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site/issues) for current list.
-
-## Wiki
-[Roadmap](https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site/wiki/Roadmap)
+See [github issue list](https://github.com/coreywagehoft/laravel-4-base/issues) for current list.
 
 -----
 
@@ -51,11 +43,11 @@ See [github issue list](https://github.com/andrew13/Laravel-4-Bootstrap-Starter-
 ### Step 1: Get the code
 #### Option 1: Git Clone
 
-	git clone git://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site.git laravel
+	git clone git@github.com:coreywagehoft/laravel-4-base.git laravel
 
 #### Option 2: Download the repository
 
-    https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site/archive/master.zip
+    https://github.com/coreywagehoft/laravel-4-base/archive/master.zip
 
 ### Step 2: Use Composer to install dependencies
 #### Option 1: Composer is not installed globally
@@ -84,7 +76,9 @@ NEVER run `php composer.phar update` on your production server.
 
 Laravel 4 will load configuration files depending on your environment. Basset will also build collections depending on this environment setting.
 
-Open ***bootstrap/start.php*** and edit the following lines to match your settings. You want to be using your machine name in Windows and your hostname in OS X and Linux (type `hostname` in terminal). Using the machine name will allow the `php artisan` command to use the right configuration files as well.
+Open ***bootstrap/start.php*** and edit the following lines to match your settings. You want to be using your machine name in Windows and your hostname 
+
+OS X and Linux (type `hostname` in terminal). Using the machine name will allow the `php artisan` command to use the right configuration files as well.
 
     $env = $app->detectEnvironment(array(
 

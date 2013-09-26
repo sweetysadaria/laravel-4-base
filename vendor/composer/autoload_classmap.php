@@ -501,6 +501,7 @@ return array(
     'EntrustPermissions' => $baseDir . '/app/database/migrations/2013_05_21_024934_entrust_permissions.php',
     'EntrustSetupTables' => $baseDir . '/app/database/migrations/2013_02_08_031702_entrust_setup_tables.php',
     'FilterTestCase' => $vendorDir . '/jasonlewis/basset/tests/Cases/FilterTestCase.php',
+    'HomepageController' => $baseDir . '/app/controllers/HomepageController.php',
     'IlluminateQueueClosure' => $vendorDir . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',
     'Illuminate\\Auth\\AuthManager' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/AuthManager.php',
     'Illuminate\\Auth\\AuthServiceProvider' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php',
