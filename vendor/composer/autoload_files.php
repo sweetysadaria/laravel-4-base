@@ -12,4 +12,5 @@ return array(
     $vendorDir . '/kriswallsmith/assetic/src/functions.php',
     $vendorDir . '/jasonlewis/basset/src/helpers.php',
     $vendorDir . '/summerstreet/woodling/bootstrap.php',
+    $vendorDir . '/raveren/kint/Kint.class.php',
 );
