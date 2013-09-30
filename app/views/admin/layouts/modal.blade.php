@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head id="Starter-Site">
-
 	<meta charset="UTF-8">
 
 	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
